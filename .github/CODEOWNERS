@@ -1,0 +1,43 @@
+# CODEOWNERS file for queue-processor-236
+# Global owners - will be requested for all PRs
+* @Armor-test/dept-security @Armor-test/dept-reliability @Armor-test/unit-design
+
+# Directory ownership
+/security/ @Armor-test/squad-payments @Armor-test/dept-identity
+/data/ @Armor-test/squad-mobile @Armor-test/squad-product @Armor-test/team-security
+/tests/ @Armor-test/grp-payments @Armor-test/grp-storage
+/build/ @Armor-test/team-logging @Armor-test/dept-identity @Armor-test/team-notifications
+/pkg/ @Armor-test/grp-ui @Armor-test/unit-design
+/migrations/ @Armor-test/team-reporting @Armor-test/grp-storage @Armor-test/squad-apps
+/helpers/ @Armor-test/grp-search @Armor-test/squad-product
+/shared/ @Armor-test/squad-performance @Armor-test/dept-security
+/auth/ @Armor-test/squad-ux @Armor-test/dept-release @Armor-test/dept-ui
+/assets/ @Armor-test/squad-cloud @Armor-test/dept-billing
+/internal/ @Armor-test/dept-reporting @Armor-test/dept-billing @Armor-test/team-research
+/docs/ @Armor-test/dept-data @Armor-test/team-notifications
+/api/ @Armor-test/grp-reporting @Armor-test/dept-notifications @Armor-test/unit-cloud
+/test/ @Armor-test/squad-tooling @Armor-test/unit-design
+
+# File type ownership
+*.cpp @Armor-test/dept-reporting @Armor-test/grp-integration
+*.ts @Armor-test/team-governance @Armor-test/squad-frontend
+*.html @Armor-test/squad-cloud @Armor-test/unit-design
+*.tf @Armor-test/squad-reporting @Armor-test/dept-reliability @Armor-test/squad-cloud
+*.kt @Armor-test/team-logging @Armor-test/dept-billing @Armor-test/dept-security
+*.toml @Armor-test/squad-database @Armor-test/grp-search
+*.rb @Armor-test/dept-test @Armor-test/squad-ux @Armor-test/grp-ui
+*.js @Armor-test/team-frontend @Armor-test/dept-api
+*.xml @Armor-test/unit-cloud @Armor-test/unit-test
+*.css @Armor-test/dept-automation @Armor-test/team-security @Armor-test/unit-design
+*.jsx @Armor-test/squad-frontend @Armor-test/squad-qa @Armor-test/grp-api
+*.gradle @Armor-test/squad-ux @Armor-test/unit-cloud
+*.scss @Armor-test/dept-data @Armor-test/dept-reporting @Armor-test/team-logging
+*.yml @Armor-test/unit-test @Armor-test/team-research @Armor-test/grp-storage
+*.md @Armor-test/squad-database @Armor-test/grp-api @Armor-test/grp-search
+
+# Security and special files
+package.json @Armor-test/dependency-team @Armor-test/security
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
